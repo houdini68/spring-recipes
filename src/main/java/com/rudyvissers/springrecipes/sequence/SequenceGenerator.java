@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class SequenceGenerator {
 
-    private static Logger logger = LoggerFactory.getLogger(SequenceGenerator.class);
+    private static final Logger logger = LoggerFactory.getLogger(SequenceGenerator.class);
     private final AtomicInteger counter = new AtomicInteger();
     private String prefix;
     private String suffix;

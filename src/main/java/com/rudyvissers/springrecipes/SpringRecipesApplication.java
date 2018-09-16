@@ -20,7 +20,7 @@ import org.springframework.context.annotation.ComponentScan;
 //@ComponentScan(basePackages = {"com.rudyvissers.springrecipes.sequence"}) // not safe
 public class SpringRecipesApplication {
 
-    private static Logger logger = LoggerFactory.getLogger(SequenceGenerator.class); // slf4j
+    private static final Logger logger = LoggerFactory.getLogger(SequenceGenerator.class); // slf4j
 
     public static void main(String[] args) {
 
