@@ -8,3 +8,4 @@
   * and the packages outside the package of the class SequenceGeneratorConfiguration are not seen
   * and so is the class ShoudNotBeInstantiated not instantiated 
   * The class SpringRecipesApplication is in a package above all the others to make the component scanning work.
+  
