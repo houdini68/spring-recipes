@@ -1,5 +1,7 @@
-# spring-recipes
+# spring-recipes - based on the Spring 5 recipes book - Have fun with the Spring framework!
 16 September 2018
+* Best practicies:
+  * Dependencies should be final and wired by constructor.
 * How to disable the Spring Boot logging at boot?
 * How to configure the application logging?
 * How to configure the ComponentScan?
