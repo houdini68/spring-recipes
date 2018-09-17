@@ -1,4 +1,4 @@
-package com.rudyvissers.springrecipes.shop;
+package com.rudyvissers.springrecipes.shopByConfiguration;
 
 public class Battery extends Product {
 

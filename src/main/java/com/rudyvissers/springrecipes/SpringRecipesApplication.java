@@ -1,10 +1,9 @@
 package com.rudyvissers.springrecipes; // root of the packages
 
 import com.rudyvissers.springrecipes.configuration.SequenceGeneratorConfiguration;
-import com.rudyvissers.springrecipes.notscanned.ShoudNotBeInstantiated;
 import com.rudyvissers.springrecipes.sequence.SequenceGenerator;
-import com.rudyvissers.springrecipes.shop.Product;
-import com.rudyvissers.springrecipes.shop.ProductAdmin;
+import com.rudyvissers.springrecipes.shopByConfiguration.Product;
+import com.rudyvissers.springrecipes.shopByConfiguration.adminByComponent.ProductAdmin;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

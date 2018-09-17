@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class SequenceGeneratorConfiguration {
 
     /*
-    ** a bean is added to the Spring IoC (inversion of control)
+    ** A bean is added to the Spring IoC (inversion of control).
      */
     @Bean
     public SequenceGenerator sequenceGenerator() {
