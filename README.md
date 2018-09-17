@@ -12,6 +12,9 @@
   * The packages outside the package of the class SequenceGeneratorConfiguration are not seen (not used) 
   and the class ShoudNotBeInstantiated is not instantiated. 
 * The package shop is used to demo configuration invoking constructors.
-   * An extra class ProductAdmin was added to demo the wiring of an array and a List of beans (artificial).
-   * This is to demo the case (should not happen) when a type is wired to multiple beans.
+   * An extra class ProductAdmin was added to demo the wiring of 
+     * an array
+     * a List 
+     * and a map of beans (artificial).
+     * This is to demo the case (should not happen) when a type is wired to multiple beans.
   
