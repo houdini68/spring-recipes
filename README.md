@@ -45,4 +45,7 @@
      that could not be found.
     * It is why Autowired is passed the parameter 'required = false' but of course the reference to bean6NotInstantiated
      is null.
-   * bean8Father of type Bean8Father.
+   * Bean8Sun1 and Bean8Sun2 are sons of type Bean8Father.
+     * Bean9RefBean8Father makes reference to a bean of type Bean8Father.
+     * There are 2 components of type Bean8Father. But only one of the two components was annotated with @Primary
+      and it is BeanSun2. BeanSun2 is the one that is wired.
