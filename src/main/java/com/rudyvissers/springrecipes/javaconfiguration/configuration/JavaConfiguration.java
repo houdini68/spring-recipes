@@ -32,7 +32,6 @@ public class JavaConfiguration {
 
     @Bean
     public Bean3 bean3() {
-
         return new Bean3("value3", 5);
     }
 

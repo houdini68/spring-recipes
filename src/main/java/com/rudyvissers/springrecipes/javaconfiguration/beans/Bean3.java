@@ -20,7 +20,7 @@ public class Bean3 {
 
     @Override
     public String toString() {
-        return "Bean1{" +
+        return "Bean3{" +
                 "attribute1='" + attribute1 + '\'' +
                 ", attribute2=" + attribute2 +
                 '}';

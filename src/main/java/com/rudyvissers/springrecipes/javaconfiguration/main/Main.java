@@ -1,6 +1,6 @@
 package com.rudyvissers.springrecipes.javaconfiguration.main;
 
-import com.rudyvissers.springrecipes.javaconfiguration.components.Bean8RefBean8Father;
+import com.rudyvissers.springrecipes.javaconfiguration.components.Bean9RefBean8Father;
 import com.rudyvissers.springrecipes.javaconfiguration.configuration.JavaConfiguration;
 import com.rudyvissers.springrecipes.javaconfiguration.components.Bean5RefBean2;
 import org.slf4j.Logger;
@@ -31,8 +31,8 @@ public class Main {
 //        Parameter 0 of constructor in Bean7RefBean6NotInstantiated required a bean of type 'Bean6NotInstantiated' that could not be found.
 //                Action:
 //        Consider defining a bean of type 'Bean6NotInstantiated' in your configuration.
-        logger.info("Contains bean8RefBean8Father: " + context.containsBeanDefinition("bean8RefBean8Father"));
-        Bean8RefBean8Father bean8RefBean8Father = context.getBean(Bean8RefBean8Father.class);
-        logger.info("The sun name of bean8RefBean8Father is: " + bean8RefBean8Father.getBean8Father().someFunctionnality());
+        logger.info("Contains bean8RefBean8Father: " + context.containsBeanDefinition("bean9RefBean8Father"));
+        Bean9RefBean8Father bean9RefBean8Father = context.getBean(Bean9RefBean8Father.class);
+        logger.info("The sun name of bean8RefBean8Father is: " + bean9RefBean8Father.getBean8Father().someFunctionnality());
     }
 }
